@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #2b2e43;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+}
+
+label.portofolio{
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: 600;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+a.aktif,a:hover{
+    background-color: #FFCC99;
+    transition: .8s;
+}
+
+.containercontent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.fotoava{
+    width: 200px;
+    border-radius: 15px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.kolomcontent{
+    padding: 30px 400px;
+}
+
+h3{
+    color: #fff;
+    font-weight: 500;
+}
+
+h4{
+    color: #fff;
+    font-weight: 300;
+}
+
+.aboutme{
+    padding-top: 15px;
+}
+
+.kolomcontent h1{
+    font-size: 40px;
+    color: #FFCC99;
+}
+
+#galery{
+    padding-top: 100px;
+}
+
+.containergalery{
+    display: flex;
+    justify-content: center;
+}
+
+.containergalery h1{
+    font-size: 40px;
+    color: #FFCC99;
+}
+
+.galery{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}   
+
+.kartu{
+    background: #FFCC99;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.imgbox{
+    background-color: #2b2e43;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.karya-1{
+    background-image: url('img/gerin1.jpg');
+}
+
+.karya-2{
+    background-image: url('img/hennoch1.jpg');
+}
+
+.karya-3{
+    background-image: url('img/merdeka-snap.jpg');
+}
+
+.kartu h3{
+    color: #2b2e43;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+#contact{
+    padding-top: 100px;
+}
+
+.containercontact{
+    display: flex;
+    justify-content: center;
+}
+
+.containercontact h1{
+    font-size: 40px;
+    color: #FFCC99;
+}
+
+.containercontact h4{
+    padding-bottom: 200px;
+}
+
